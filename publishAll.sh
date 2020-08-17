@@ -24,7 +24,7 @@ VERSION=
 echo "Publishing $PACKAGE_VERSION"
 
 pushd $PWD > /dev/null
-cd Source
+cd Source/FluentUI.Aurelia
 echo "Publishing"
 yarn publish --new-version $PACKAGE_VERSION --no-git-tag-version
 popd > /dev/null
