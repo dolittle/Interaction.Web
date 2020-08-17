@@ -1,0 +1,21 @@
+// Copyright (c) Dolittle. All rights reserved.
+// Licensed under the MIT license. See LICENSE file in the project root for full license information.
+
+@import '../app.scss';
+
+@import '~prismjs/themes/prism-tomorrow.css';
+@import '~prismjs/plugins/line-numbers/prism-line-numbers.css';
+
+.example-card {
+    margin: 20px 0;
+    
+    .header {
+        border-bottom: 1px solid $ms-color-neutralDark;
+    
+        .buttons {
+            display: flex;
+            float: right;   
+        }
+    }
+}
+

@@ -1,0 +1,63 @@
+[
+    {
+        "name": "Basic inputs",
+        "items": [
+            { "name": "Button", "url": "/components/basic/button" },
+            { "name": "Checkbox", "url": "/components/basic/checkbox" },
+            { "name": "ChoiceGroup", "url": "/components/basic/choice-group" },
+            { "name": "ComboBox", "url": "/components/basic/combo-box" },
+            { "name": "Dropdown", "url": "/components/basic/dropdown" },
+            { "name": "Label", "url": "/components/basic/label" },
+            { "name": "Link", "url": "/components/basic/link" },
+            { "name": "Rating", "url": "/components/basic/rating" },
+            { "name": "SearchBox", "url": "/components/basic/search-box" },
+            { "name": "Slider", "url": "/components/basic/slider" },
+            { "name": "SpinButton", "url": "/components/basic/spin-button" },
+            { "name": "TextField", "url": "/components/basic/text-field" },
+            { "name": "Toggle", "url": "/components/basic/toggle" }
+        ]
+    },
+    {
+        "name": "Galleries & Pickers",
+        "items": [
+            { "name": "Pickers", "url": "/components/pickers/pickers" }
+        ]
+    },
+    {
+        "name": "Items & Lists",
+        "items": [
+            { "name": "Card", "url": "/components/items/card" },
+            { "name": "Persona", "url": "/components/items/persona" }
+        ]
+    },
+    {
+        "name": "Commands, Menus & Navs",
+        "items": [
+            { "name": "AppBar", "url": "/components/commands/app-bar" },
+            { "name": "Breadcrumb", "url": "/components/commands/breadcrumb" },
+            { "name": "CommandBar", "url": "/components/commands/command-bar" },
+            { "name": "Pivot", "url": "/components/commands/pivot" }
+        ]
+    },
+    {
+        "name": "Progress",
+        "items": [
+            { "name": "Spinner", "url": "/components/progress/spinner" }
+        ]
+    },
+    {
+        "name": "Surfaces",
+        "items": [
+            { "name": "Dialog", "url": "/components/surfaces/dialog" },
+            { "name": "Modal", "url": "/components/surfaces/modal" },
+            { "name": "Panel", "url": "/components/surfaces/panel" }
+        ]
+    },
+    {
+        "name": "Utilities",
+        "items": [
+            { "name": "Icon", "url": "/components/utilities/icon" },
+            { "name": "Stack", "url": "/components/utilities/stack" }
+        ]
+    }
+]

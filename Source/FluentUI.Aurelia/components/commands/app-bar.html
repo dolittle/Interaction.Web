@@ -1,0 +1,16 @@
+<!-- Copyright (c) Dolittle.  All Rights Reserved.  Licensed under the MIT License. See LICENSE file in the project root for full license information. -->
+<template>
+    <require from="./app-bar.scss"></require>
+
+    <nav class="app-bar font-size-14">
+        <ul>
+            <li repeat.for="item of items">
+                <button class.bind="item.selected ? 'selected': ''" click.delegate="selectedItemChanged(item)">
+                    <font-icon icon-name="${item.icon}" class-name="icon"></font-icon>
+                    <span class="text">${item.title}</span>
+                </button>
+            </li>
+        </ul>
+    </nav>
+    <slot></slot>
+</template>
