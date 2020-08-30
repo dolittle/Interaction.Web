@@ -27,14 +27,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/dolittle-interaction/fluentui.aurelia.git"
+        "url": "git+https://github.com/dolittle/interaction.web.git"
     },
     "author": "",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/dolittle/home/issues"
     },
-    "homepage": "https://github.com/dolittle-interaction/fluentui.aurelia#readme",
+    "homepage": "https://github.com/dolittle/interaction.web#readme",
     "dependencies": {
         "@dolittle/rudiments": "^3.1.0",
         "@dolittle/typescript.build": "^5.3.6",
