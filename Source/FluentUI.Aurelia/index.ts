@@ -71,6 +71,9 @@ export function configure(aurelia: FrameworkConfiguration, config: any) {
         PLATFORM.moduleName('./components/commands/pivot'),
         PLATFORM.moduleName('./components/commands/pivot-item'),
 
+        // Notifications
+        PLATFORM.moduleName('./components/notification/message-bar'),
+
         // Progress
         PLATFORM.moduleName('./components/progress/spinner'),
 
